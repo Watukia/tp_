@@ -1,0 +1,872 @@
+    @media all and (max-width:320px){
+        *{
+            margin: 0;
+            padding: 0;
+        } 
+        body{
+            background: url(bg1.jpg);
+        }
+        .fond,.avant,.form_1{
+            background: white;
+        }
+        .form_1{
+            width: 100%;
+            height: 400px;
+        }
+        .form_2,.bouton{
+            border: none;
+            margin-left: 25px;
+            width: 75%;
+            height: 50px;
+        }
+        .entete{
+            width: 100%;
+            height: 70px;
+            background: rgb(117, 117, 206); 
+            position: fixed;
+         }
+         .entete_1,.form_sous{
+            text-align: center;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        li{
+            margin: 3px;
+            list-style: none;
+            text-align: center;
+            margin: 9px;
+        }
+        .photo{
+            width: 100%;
+            height: 300px;
+            background: url(banner2.JPG);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .photo_sous{
+            width: 40%;
+            height: 70px;
+            background: cornflowerblue;
+            margin-left: 105px;
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .citation{
+            width: 100%;
+            height: 150px;
+        }
+        .citation_1,.citation_2,.histoire_1,.formation_1,.ami1,.avant_1,.avant_2{
+            text-align: center;
+        }
+        .citation_2,.histoire_2,.formation_2,.ami2,.avant_2{
+            font-size: 15px;
+            font-style: italic;
+            font-family: monospace;
+
+        }
+        .citation_1,.histoire_1,.formation_1,.avant_1{
+            font-size: 20px;
+        }
+        .image,.img,.lili img,.lolo img{
+            width: 150px;
+            height: 170px;
+        }
+        footer{
+            width: 100%;
+            height: 50px;
+            background: rgb(117, 117, 206);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .footer{
+            font-size: xx-small;
+            text-align: center;
+            font-family: fantasy;
+        }
+        }
+
+    
+    @media all and (min-width:320px){
+        *{
+            margin: 0;
+            padding: 0;
+        } 
+        body{
+            background: url(bg1.jpg);
+        }
+        .fond,.avant,.form_1{
+            background: white;
+        }
+        .form_1{
+            width: 100%;
+            height: 400px;
+        }
+        .cv{
+            background:rgb(117, 117, 206);
+            width: 65px;
+            height: 25px;
+            text-align: center;
+            margin-left: 75px;
+        }
+        .cv:hover{
+            background: coral;
+        }
+        .lien{
+            text-decoration: none;
+        }
+        .lien:focus{
+            background: cyan;
+        }
+        .fufu{
+            background: white;
+            width: 100%;
+            
+        }
+        .form_2,.bouton{
+            border: none;
+            margin-left: 25px;
+            width: 75%;
+            height: 50px;
+        }
+        .entete{
+            width: 100%;
+            height: 70px;
+            background: rgb(117, 117, 206); 
+            position: fixed;
+         }
+         .entete_1,.form_sous{
+            text-align: center;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        li{
+            margin: 3px;
+            list-style: none;
+            text-align: center;
+            margin: 9px;
+        }
+        .photo{
+            width: 100%;
+            height: 300px;
+            background: url(banner2.JPG);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .photo_sous{
+            width: 40%;
+            height: 70px;
+            background: cornflowerblue;
+            margin-left: 105px;
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .citation{
+            width: 100%;
+            height: 150px;
+        }
+        .citation_1,.citation_2,.histoire_1,.formation_1,.ami1,.avant_1,.avant_2{
+            text-align: center;
+        }
+        .citation_2,.histoire_2,.formation_2,.ami2,.avant_2{
+            font-size: 15px;
+            font-style: italic;
+            font-family: monospace;
+
+        }
+        .citation_1,.histoire_1,.formation_1,.avant_1{
+            font-size: 20px;
+        }
+        .image,.img,.lili img,.lolo img{
+            width: 150px;
+            height: 170px;
+        }
+        footer{
+            width: 100%;
+            height: 50px;
+            background: rgb(117, 117, 206);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .footer{
+            font-size: xx-small;
+            text-align: center;
+            font-family: fantasy;
+        }
+    }
+    @media all and (min-width:500px){
+        .photo{
+            background: url(bg3.jpg);
+            background-size: cover;
+        }
+        .photo_sous{
+            margin-left: 170px;
+        }
+        .photo_amis,.encadeur{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .ami1{
+            text-align: center;
+        }
+    }
+    @media all and (min-width:768px){
+        
+    }
+    @media all and (min-width:700px){
+        .citation,.histoire,.amis,.avant{
+            width: 100%;
+            height: 250px;
+        }
+        .lolo{
+            background: white;
+            width: 100%;
+            height: 100px;
+        }
+
+        .citation_1,.citation_2,.formation_1,.formation_2,.histoire_1.ami1,.avant_1,.avant_2,.ami2,.galerie_1,h1{
+            text-align: center;
+        }
+        .citation_2,.formation_2,.histoire_2,.ami2,.avant_2{
+            font-size: 25px;
+            font-style: italic;
+            font-family: monospace;
+        }
+        .citation_1,.formation_1,.histoire_1,.ami1{
+            font-size: 40px;
+        }
+        .photo_moi{
+            background: url(FB_IMG_15853442008010542.jpg);
+            width: 250px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 10px;
+        }
+        .photo_moi1,.galerie_2,.lolo{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .lala{
+            width: 30%;
+            height: 305px;
+        }
+        .huh,.lawa{
+            margin-left: 25px;
+            font-size: 30px;
+        }
+        .lien:hover{
+            background: black;
+            color: turquoise;
+        }
+
+    }
+    
+    @media all and (min-width:1200px){
+        *{
+            margin: 0;
+            padding: 0;
+        } 
+        body{
+            background: url(bg1.jpg);
+            background-attachment: fixed;
+            background-position: fixed;
+            background-size: cover;
+        }
+        .entete{
+           width: 100%;
+           height: 120px;
+           background-color: rgb(117, 117, 206);
+           position: fixed;
+           display: flex;
+        }
+        .entete_1{
+            width: 50%;
+            height: 120px;
+            margin: 35px;
+            text-shadow: 5px 6px 3px rgb(19, 19, 37);
+            font-family: jokerman;
+        }
+        .entete_2{
+            width: 50%;
+            height: 120px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 75px;
+        }
+        li{
+            
+            margin: 15px;
+            list-style: none;
+        }
+        .photo{
+            width: 100%;
+            height: 600px;
+            background-image: url(bg3.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .photo_sous{
+            width: 20%;
+            height: 70px;
+            background: rgb(117, 117, 206);
+            margin-left:550px;
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .citation{
+            width: 100%;
+            height: 350px;
+            
+            
+        }
+        .citation_1,.citation_2{
+            text-align: center;
+        }
+        .citation_2{
+            font-size: 50px;
+            font-style: italic;
+            font-family: monospace;
+        }
+        .citation_1{
+            font-size: 70px;
+        }
+        .vie{
+            width: 100%;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+    
+        .photo_moi{
+            background: url(FB_IMG_15853442008010542.jpg);
+            width: 35%;
+            height: 350px;
+            background-repeat: none;
+            border-radius: 10px;
+        }
+        .histoire,.photo_moi{
+            width: 40%;
+            height: 350px;
+        }
+        .histoire_1{
+            font-size: xx-large;
+        }
+        .histoire_2{
+            font-size: 39px;
+            font-style: italic;
+        }
+        .formation{
+            
+            width: 100%;
+            height: 350px;
+        }
+        .formation_1,.formation_2{
+            text-align: center;
+        }
+        .formation_1,.ami1{
+            font-size: 40px;
+            text-decoration: underline;
+        }
+        .formation_2,.ami2{
+            font-size: 38px;
+            font-style: italic;
+        }
+        .encadeur{
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .encadeur_1,.encadeur_2,.encadeur_3{
+            width: 20%;
+            height: 350px;
+        }
+        .image{
+            border-radius: 15px;
+            width: 100%;
+            height: 350px;
+            
+        }
+        .bassa,.nom{
+            text-align: center;
+            font-size: xx-large;
+            font-family: cursive;
+        }
+        .amis{
+            width: 100%;
+            height: 200px;
+        }
+        .ami1,.ami2{
+            text-align: center;
+        }
+        .photo_amis{
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .photo_moi1{
+            width: 35%;
+            height: 400px;
+        }
+        .photo_moi{
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+        }
+        .img{
+            border-radius: 15px;
+        }
+        .cv{
+            width: 20%;
+            height: 50px;
+            background: rgb(117, 117, 206);
+            border-radius: 15px;
+        }
+        .cvmoi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100px;
+            margin-left: 500px;
+        }
+        .cv p{
+            font-size: 35px;
+            font-family: bold;
+            text-align: center;
+            
+        }
+        .fond{
+            background: white;
+        }
+        
+        .form{
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .form_1{
+            width: 45%;
+            height: 550px;
+            background: white;
+            margin-left: 50%;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background: rgb(117, 117, 206);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .avant{
+            width: 100%;
+            height: 200px;
+            background: white;
+        }
+        .form_2{
+            width: 80%;
+            height: 75px;
+            border-bottom: solid 2px black;
+            border: 0px;
+            margin-left: 35px;
+            
+        }
+        .form_sous{
+            width: 50%;
+            margin-left: 35px;
+        }
+        .bouton{
+            width: 200px;
+            height: 35px;
+            background:rgb(117, 117, 206);
+            border-radius: 15px; 
+            margin-left: 35px;
+        }
+        .lien:hover{
+            background: black;
+            color: turquoise;
+        }
+        .lien{
+            text-decoration: none;
+        }
+        .avant_1{
+            text-align: center;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .avant_2{
+            font-family: cursive;
+            font-size: 23px;
+            text-align: center;
+        }
+        /*galerie*/
+        .galerie,.huha{
+            background: white;
+        }
+        .galerie{
+            width: 100%;
+            height: 1200px;
+        }
+        .galerie_1,h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: cursive;
+        }
+        .lili img,.lala img,.ami img{
+            width: 400px;
+            height: 350px;
+            font-size: cover;
+            padding: 5px;
+        }
+        .galerie_2,.lolo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        img{
+            border-radius: 15px;
+        }
+        .huh{
+            font-size: xx-large;
+            font-family: cursive;
+            margin-left: 55px;
+            border-bottom: solid 1px;
+        }
+        .lawa{
+            text-align: center;
+            font-size: xx-large;
+            font-family: bold;
+        }
+        .footer{
+            text-align: center;
+        }
+        
+    }
+    @media all and (min-width:1400px){
+        *{
+            margin: 0;
+            padding: 0;
+        } 
+        body{
+            background: url(bg1.jpg);
+            background-attachment: fixed;
+            background-position: fixed;
+            background-size: cover;
+        }
+        .entete{
+           width: 100%;
+           height: 120px;
+           background-color: rgb(117, 117, 206);
+           position: fixed;
+           display: flex;
+        }
+        .entete_1{
+            width: 50%;
+            height: 120px;
+            margin: 35px;
+            text-shadow: 5px 6px 3px rgb(19, 19, 37);
+            font-family: jokerman;
+        }
+        .entete_2{
+            width: 50%;
+            height: 120px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 75px;
+        }
+        li{
+            
+            margin: 15px;
+            list-style: none;
+        }
+        .photo{
+            width: 100%;
+            height: 600px;
+            background-image: url(bg3.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .photo_sous{
+            width: 20%;
+            height: 70px;
+            background: rgb(117, 117, 206);
+            margin-left:550px;
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .citation{
+            width: 100%;
+            height: 350px;
+            
+            
+        }
+        .citation_1,.citation_2{
+            text-align: center;
+        }
+        .citation_2{
+            font-size: 50px;
+            font-style: italic;
+            font-family: monospace;
+        }
+        .citation_1{
+            font-size: 70px;
+        }
+        .vie{
+            width: 100%;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+    
+        .photo_moi{
+            background: url(FB_IMG_15853442008010542.jpg);
+            background-repeat: none;
+            background-size: 100%;
+            border-radius: 10px;
+        }
+        .histoire,.photo_moi{
+            width: 40%;
+            height: 350px;
+        }
+        .histoire_1{
+            font-size: xx-large;
+        }
+        .histoire_2{
+            font-size: 39px;
+            font-style: italic;
+        }
+        .formation{
+            
+            width: 100%;
+            height: 350px;
+        }
+        .formation_1,.formation_2{
+            text-align: center;
+        }
+        .formation_1,.ami1{
+            font-size: 40px;
+            text-decoration: underline;
+        }
+        .formation_2,.ami2{
+            font-size: 38px;
+            font-style: italic;
+        }
+        .encadeur{
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .encadeur_1,.encadeur_2,.encadeur_3{
+            width: 20%;
+            height: 350px;
+        }
+        .image{
+            border-radius: 15px;
+            width: 100%;
+            height: 350px;
+            
+        }
+        .bassa,.nom{
+            text-align: center;
+            font-size: xx-large;
+            font-family: cursive;
+        }
+        .amis{
+            width: 100%;
+            height: 200px;
+        }
+        .ami1,.ami2{
+            text-align: center;
+        }
+        .photo_amis{
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .img{
+            border-radius: 15px;
+        }
+        .cv{
+            width: 20%;
+            height: 50px;
+            background: rgb(117, 117, 206);
+            border-radius: 15px;
+        }
+        .cvmoi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100px;
+            margin-left: 500px;
+        }
+        .cv p{
+            font-size: 35px;
+            font-family: bold;
+            text-align: center;
+            
+        }
+        .fond{
+            background: white;
+        }
+        
+        .form{
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .form_1{
+            width: 45%;
+            height: 550px;
+            background: white;
+            margin-left: 50%;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background: rgb(117, 117, 206);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .avant{
+            width: 100%;
+            height: 200px;
+            background: white;
+        }
+        .form_2{
+            width: 80%;
+            height: 75px;
+            border-bottom: solid 2px black;
+            border: 0px;
+            margin-left: 35px;
+            
+        }
+        .form_sous{
+            width: 50%;
+            margin-left: 35px;
+        }
+        .bouton{
+            width: 200px;
+            height: 35px;
+            background:rgb(117, 117, 206);
+            border-radius: 15px; 
+            margin-left: 35px;
+        }
+        .lien:hover{
+            background: black;
+            color: turquoise;
+        }
+        .lien{
+            text-decoration: none;
+        }
+        .avant_1{
+            text-align: center;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .avant_2{
+            font-family: cursive;
+            font-size: 23px;
+            text-align: center;
+        }
+        /*galerie*/
+        .galerie,.huha{
+            background: white;
+        }
+        .galerie{
+            width: 100%;
+            height: 1200px;
+        }
+        .galerie_1,h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: cursive;
+        }
+        .lili img,.lala img,.ami img{
+            width: 400px;
+            height: 350px;
+            font-size: cover;
+            padding: 5px;
+        }
+        .galerie_2,.lolo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        img{
+            border-radius: 15px;
+        }
+        .huh{
+            font-size: xx-large;
+            font-family: cursive;
+            margin-left: 55px;
+            border-bottom: solid 1px;
+        }
+        .lawa{
+            text-align: center;
+            font-size: xx-large;
+            font-family: bold;
+        }
+        .footer{
+            text-align: center;
+        }
+    }
